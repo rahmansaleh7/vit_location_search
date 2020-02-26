@@ -19,7 +19,12 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': [
+                'base',
+                'vit_unit_location',
+                'vit_budget',
+                'om_account_budget',
+                ],
 
     # always loaded
     'data': [
